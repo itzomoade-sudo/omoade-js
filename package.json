@@ -2,15 +2,27 @@
   "name": "learning-dev",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/itzomoade-sudo/omoade-js#readme",
+  "bugs": {
+    "url": "https://github.com/itzomoade-sudo/omoade-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzomoade-sudo/omoade-js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
-  }
-}
+    "express": "^5.2.1",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {}
+} 
